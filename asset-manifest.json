@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/foraging-site/static/css/main.54edba2b.css",
+    "main.js": "/foraging-site/static/js/main.481f3298.js",
+    "static/js/787.21912a35.chunk.js": "/foraging-site/static/js/787.21912a35.chunk.js",
+    "index.html": "/foraging-site/index.html",
+    "main.54edba2b.css.map": "/foraging-site/static/css/main.54edba2b.css.map",
+    "main.481f3298.js.map": "/foraging-site/static/js/main.481f3298.js.map",
+    "787.21912a35.chunk.js.map": "/foraging-site/static/js/787.21912a35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54edba2b.css",
+    "static/js/main.481f3298.js"
+  ]
+}
