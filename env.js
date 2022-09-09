@@ -60,7 +60,7 @@ window.env = {
   "npm_package_version": "0.1.0",
   "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\arbm1\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
   "NUMBER_OF_PROCESSORS": "16",
-  "OLDPWD": "D:/",
+  "OLDPWD": "D:/projects/foraging",
   "OneDrive": "C:\\Users\\arbm1\\OneDrive",
   "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\arbm1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;D:\\Programs\\GitCLI;D:\\Programs\\Node.JS;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\arbm1\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\arbm1\\AppData\\Local\\gitkraken\\bin;D:\\Programs\\Microsoft VS Code\\bin;C:\\Users\\arbm1\\AppData\\Roaming\\npm;D:\\Programs\\Heroku\\bin;C:\\Program Files\\heroku\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\Program Files\\MongoDB\\Server\\5.0\\bin",
   "ORIGINAL_TEMP": "C:/Users/arbm1/AppData/Local/Temp",
