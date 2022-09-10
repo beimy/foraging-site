@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/foraging-site/static/css/main.398ece5c.css",
-    "main.js": "/foraging-site/static/js/main.6decda7a.js",
+    "main.css": "/foraging-site/static/css/main.9a36d374.css",
+    "main.js": "/foraging-site/static/js/main.f091d64d.js",
     "static/js/787.21912a35.chunk.js": "/foraging-site/static/js/787.21912a35.chunk.js",
     "static/media/ff_logo_round-02-modified.png": "/foraging-site/static/media/ff_logo_round-02-modified.9ba1dc38f2020b6658bb.png",
     "index.html": "/foraging-site/index.html",
-    "main.398ece5c.css.map": "/foraging-site/static/css/main.398ece5c.css.map",
-    "main.6decda7a.js.map": "/foraging-site/static/js/main.6decda7a.js.map",
+    "main.9a36d374.css.map": "/foraging-site/static/css/main.9a36d374.css.map",
+    "main.f091d64d.js.map": "/foraging-site/static/js/main.f091d64d.js.map",
     "787.21912a35.chunk.js.map": "/foraging-site/static/js/787.21912a35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.398ece5c.css",
-    "static/js/main.6decda7a.js"
+    "static/css/main.9a36d374.css",
+    "static/js/main.f091d64d.js"
   ]
 }
