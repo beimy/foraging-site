@@ -1,26 +1,19 @@
 import React, {FC, useRef, useState, useEffect} from "react";
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import useWindowDimensions from "../../hooks/useWindowDimensions";
-// import { mapMarkerDB } from "../../assets/mapMarkerDB.ts";
-
-const mapMarkerDB = [
-    {position: {lat: 34.93670841506753, lng: -84.56223548969238} },
-    {position: {lat: 34.916481574201896, lng: -84.27938461303711} },
-    {position: {lat: 34.91696427121348, lng: -84.27197086188276} },
-    {position: {lat: 34.973578003562544, lng: -84.29302969518123} },
-];
+import { mapMarkerDB } from "../../assets/mapMarkerDB.ts";
 
 const MapComp: FC<{}> = ({}) => {
     const [clicks, setClicks] = useState<google.maps.LatLng[]>([]);
     const [zoom, setZoom] = useState(3); // initial zoom
-    const [markerData, setMarkerData] = useState(mapMarkerDB);
-    const [markers, setMarkers] = useState<Marker[]>([]);
+    const [markers, setMarkers] = useState<Marker[]>(mapMarkerDB);
     const [isLoading, setLoading] = useState(true);
     const [center, setCenter] = useState<google.maps.LatLngLiteral>({
         lat: 34.87061115856553,
         lng: -84.32288786268238,
     });
     const {height, width} = useWindowDimensions();
+
 
     useEffect(() => {
         generateMarkersFromDB();
@@ -33,10 +26,10 @@ const MapComp: FC<{}> = ({}) => {
     };
 
     function generateMarkersFromDB() {
-        markerData.map((marker) => {
-            let currentMarker: Marker = createMarker(marker.position.lat, marker.position.lng);
-            setMarkers([...markers, currentMarker!]);
-        });
+        // mapMarkerDB.map((marker) => {
+        //     setMarkers([...markers, marker]);
+        //     console.log(markers)
+        // });
         setLoading(false);
     }
 
