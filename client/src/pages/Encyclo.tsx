@@ -24,7 +24,7 @@ const filters = [
     {id: 4, param: 'Region'}
 ];
 
-const fakerData = [
+export const fakerData = [
     {id: 1, name: 'Snow Fungus', sciName: '', region: '', season: '', img: 'snow_fungus_img01.png'},
     {id: 2, name: 'Wild Ginger', sciName: '', region: '', season: '', img: 'ginger_img01.png'},
     {id: 3, name: 'Partridge Berry', sciName: '', region: '', season: '', img: 'partridge_berry_img01.png'},

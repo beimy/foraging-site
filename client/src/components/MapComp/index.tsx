@@ -2,6 +2,7 @@ import React, {FC, useRef, useState, useEffect} from "react";
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { mapMarkerDB } from "../../assets/mapMarkerDB.ts";
+import { fakerData } from "../../pages/Encyclo.tsx";
 
 const MapComp: FC<{}> = ({}) => {
     const [clicks, setClicks] = useState<google.maps.LatLng[]>([]);
@@ -84,7 +85,7 @@ const MapComp: FC<{}> = ({}) => {
             center={center}
             zoom={10}
             onClick={() => setActiveMarker(null)}
-            onDblClick={onDblClick}
+            
         >
         {markers.map((marker: Marker, index) => (
             <Marker
@@ -95,9 +96,9 @@ const MapComp: FC<{}> = ({}) => {
             >
                 {activeMarker === (index) ? (
                     <InfoWindow onCloseClick={() => setActiveMarker(null)}>
-                        <div>
-                            <h1>Name</h1>
-                            <img></img>
+                        <div className="">
+                            <h1>{fakerData[index].name}</h1>
+                            <img className="max-h-[250px] max-w-[250px]" src={process.env.PUBLIC_URL + `/images/${fakerData[index].img}`} />
                         </div>
                     </InfoWindow>
                 ): null}

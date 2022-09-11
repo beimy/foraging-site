@@ -75,7 +75,7 @@ function App() {
                   element={<CocktailSingle />}
                   />
                 <Route 
-                  path='/test'
+                  path='/map'
                   element={<TestPage />}
                   />
               </Routes>
