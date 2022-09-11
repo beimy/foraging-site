@@ -23,7 +23,7 @@ const Home = () => {
                     <Link to='/cocktails' className='flex hero-btn btn justify-center'>
                         <span className='self-center'>Recipes</span>
                     </Link>
-                    <button onClick={toggleErrorModal} className='hero-btn btn'>Interactive Map</button>
+                    <Link to='/map' className='hero-btn btn'>Interactive Map</Link>
                     <Link to='/encyclopedia' className='flex hero-btn btn justify-center'>
                         <span className='self-center p-1'>Encyclopedia</span>
                     </Link>
