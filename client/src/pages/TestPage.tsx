@@ -9,7 +9,7 @@ interface testProps {
 const TestPage: FC<testProps> = ({}) => {
     return (
         <div className="flex justify-center min-h-full min-w-full">
-            <MapMenu />
+            {/* <MapMenu /> */}
             <MapComp />
         </div>
     );
