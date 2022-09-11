@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/foraging-site/static/css/main.9a36d374.css",
-    "main.js": "/foraging-site/static/js/main.f091d64d.js",
+    "main.js": "/foraging-site/static/js/main.0e56eb56.js",
     "static/js/787.21912a35.chunk.js": "/foraging-site/static/js/787.21912a35.chunk.js",
     "static/media/ff_logo_round-02-modified.png": "/foraging-site/static/media/ff_logo_round-02-modified.9ba1dc38f2020b6658bb.png",
     "index.html": "/foraging-site/index.html",
     "main.9a36d374.css.map": "/foraging-site/static/css/main.9a36d374.css.map",
-    "main.f091d64d.js.map": "/foraging-site/static/js/main.f091d64d.js.map",
+    "main.0e56eb56.js.map": "/foraging-site/static/js/main.0e56eb56.js.map",
     "787.21912a35.chunk.js.map": "/foraging-site/static/js/787.21912a35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a36d374.css",
-    "static/js/main.f091d64d.js"
+    "static/js/main.0e56eb56.js"
   ]
 }
