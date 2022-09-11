@@ -10,18 +10,26 @@ interface EncycloProps {
 
 };
 
-const fakerData = [
-    {id: 1, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
-    {id: 2, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
-    {id: 3, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
-    {id: 4, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
-]
+// const fakerData = [
+//     {id: 1, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
+//     {id: 2, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
+//     {id: 3, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
+//     {id: 4, img: 'Test', name: 'Test Name', sciName: 'Test SciName', region: 'Test Region', season: 'Test Season'},
+// ]
 
 const filters = [
     {id: 1, param: 'Browse'},
     {id: 2, param: 'Name'},
     {id: 3, param: 'Flavor'},
     {id: 4, param: 'Region'}
+];
+
+const fakerData = [
+    {id: 1, name: 'Snow Fungus', sciName: '', region: '', season: '', img: 'snow_fungus_img01.png'},
+    {id: 2, name: 'Wild Ginger', sciName: '', region: '', season: '', img: 'ginger_img01.png'},
+    {id: 3, name: 'Partridge Berry', sciName: '', region: '', season: '', img: 'partridge_berry_img01.png'},
+    {id: 4, name: 'Purple Amoranth', sciName: '', region: '', season: '', img: 'purple_amoranth_img01.png'},
+    {id: 5, name: 'Smooth Chanterelle', sciName: '', region: '', season: '', img: 'smooth_chanterelle_img01.png'}
 ];
 
 const alphabet = [
